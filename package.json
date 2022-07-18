@@ -1,0 +1,22 @@
+{
+  "name": "kit-digital",
+  "version": "1.0.0",
+  "description": "Kit Digital Initiumsoft",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jebarcia77/KitDigital.git"
+  },
+  "keywords": [
+    "kitdigital"
+  ],
+  "author": "Barcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jebarcia77/KitDigital/issues"
+  },
+  "homepage": "https://github.com/Jebarcia77/KitDigital#readme"
+}
