@@ -1,0 +1,237 @@
+
+#Navbar{
+    justify-content: flex-end;
+}
+#logo img{
+    height: 50px;
+}
+.navbar {
+    background-color: white;
+}
+.jumbotron{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.815);
+    margin-bottom: 0 ;
+    padding-bottom: 20px ;
+}
+
+.nav-link{
+    color: black !important;    
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 24px 22px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    min-width: 70px;
+}
+
+li.active .nav-link{
+    color: #FFC000 !important;
+    
+}
+
+.header-text{
+    color: #FFC000;
+}
+.header-text span{
+    color: white;
+}
+.header-p{
+    color: white;
+    margin-top: 70px;
+    font-size: 18px;
+    font-family: "PT sans", sans-serif;
+}
+.header-p a{
+    color: #FFC000;
+}
+.row-of-imgs{
+    width: 100%;
+}
+
+.circle_arrow{
+    background-color: white;
+    border-radius: 50%;
+    border: solid 1px white;
+    height: 75px;
+    width: 75px;
+    box-shadow: 1px 1px 3px #eee;
+    justify-content: center;
+    display: flex;
+}
+.line_separator{
+    background-color: white;
+    height: 1px;
+}
+.header_separator{
+    justify-content: space-between;
+}
+.text-kit{
+    color: white;
+}
+.text-kit span{
+    color: #FFC000;
+}
+.kit-digital-desc{
+    padding: 50px;
+    text-align: center;
+    margin: 0 !important;
+    position: relative;
+    top: -10%;
+    z-index: 100;
+    border: none !important;
+    transform: translate(0, -2px);
+}
+.iconholder{
+    background-color: #f7c90a;
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    justify-self: center;
+    display: inline-flex;
+    color: white;
+    fill: #eee;
+    justify-content: center;
+    margin: 20px 0;
+    
+}
+.iconholder i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    --fa-primary-color: red;
+}
+.social_icon{
+    color: #CCC !important;
+    border: solid 1px#CCC;
+    padding: 8px;
+    border-radius: 50%;
+}
+.footer{
+    background-color: #333;
+    color: #CCC;
+    border-top-color: rgba(0,0,0,0.2);
+    padding-top: 50px;
+}
+
+.widget  h4 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #DDD;
+}
+
+.widget p {
+    opacity: 0.8;
+    line-height: 1.7;
+}
+.widget p:not(.lead) {
+    font-size: 14px;
+}
+
+.ezrichtext-field a {
+    color: #CCC;
+    font-size: 14px;
+}
+
+.ezrichtext-field a:hover {
+    color: #999;
+}
+
+.phone-number, .email-address{   
+    color: #CCC;    
+}
+
+.phone-number:hover, .email-address:hover {
+    color: #999;
+}
+.copyright-row{
+    background-color: rgba(0,0,0,0.2);
+    color: rgba(255,255,255,0.25);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    padding: 15px;
+    font-family: 'Roboto','sans-serif';
+    margin-top: 40px;
+}
+
+i {
+    font-family: 'FontAwesome' !important;
+}
+abbr{
+    text-decoration: none !important;
+}
+.row-content{
+    border-bottom: #999 solid 2px ;
+    margin: 100px 0;
+    padding-bottom: 50px;
+}
+.contact-btn{
+    background-color: #f7c90a;
+    border-radius: 15px;
+    border: 1px solid #f7c90a;
+    padding: 12px;
+    width: 200px;
+    align-self: center;
+    justify-self: center;
+    margin: 20px 0;
+    color: rgb(70, 68, 68);
+    font-weight: 600;
+}
+.contact-btn:hover{
+    background-color: #4b3d05 ;
+    box-shadow: 0 1px 1px 0;
+   
+}
+
+.portfolio-image   {
+    display: block;
+    width: 100%;    
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 15px ;
+}
+.portfolio-image img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.portfolio-overlay {
+    position: absolute;
+    background-color: transparent;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(241,207,0,0);
+    transition: opacity .4s ease-in-out;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-overlay:hover {
+    background-color: rgba(241,207,0,0.5);
+    opacity: 1;
+}
+.center-icon{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    width: 100%;
+}
+.img-item{
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .circle_arrow{
+        height: 50px;
+        width: 50px;
+    }
+}
