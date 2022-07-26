@@ -10,7 +10,7 @@
 }
 .jumbotron{
     margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.815);
+    background-color: #FFC000;
     margin-bottom: 0 ;
     padding-bottom: 20px ;
 }
@@ -32,7 +32,7 @@ li.active .nav-link{
 }
 
 .header-text{
-    color: #FFC000;
+    color: white;
 }
 .header-text span{
     color: white;
@@ -68,7 +68,7 @@ li.active .nav-link{
     justify-content: space-between;
 }
 .text-kit{
-    color: white;
+    color: #333;
 }
 .text-kit span{
     color: #FFC000;
@@ -94,7 +94,12 @@ li.active .nav-link{
     fill: #eee;
     justify-content: center;
     margin: 20px 0;
-    
+    text-align: center;
+    align-items:center ;    
+}
+.iconholder span , .iconholder p{
+    font-size: 60px;
+    text-indent: 2px;
 }
 .iconholder i{
     display: flex;
